@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+
+<!--********** Copyright 2015 Roku Corp.  All Rights Reserved. **********-->
+
+<component name="dans" extends="Scene" >
+
+<script type = "text/brightscript" >
+<![CDATA[
+
+sub init()
+	m.top.backgroundURI = "pkg:/images/BGSimple.jpg"
+
+	m.top.setFocus(true)
+end sub
+
+]]>
+</script>
+
+<children>
+
+    <MyCustomRowList/>
+
+	<Rectangle 
+		id = "exampleRectangle" 
+		color = "0x0000CCFF" 
+		width = "886" 
+		height = "200" 
+		translation = "[290,34]" />
+
+	<Poster 
+        id = "myPoster" 
+        uri = "pkg:/images/space.jpg"
+        translation = "[ 200, 100 ]" >
+
+    	<Label
+            id = "First Name"
+            text = "Space"
+            translation = "[ 200, 100 ]" />
+        
+    </Poster>
+
+</children>
+
+</component>

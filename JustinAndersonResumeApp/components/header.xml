@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<!--********** Copyright 2016 Roku Corp.  All Rights Reserved. **********-->
+
+
+<component name="Header" extends="Group" >
+
+<children>
+
+    <Rectangle 
+        id = "exampleRectangle"
+        color = "0x4682B4"
+        width = "1240"
+        height = "2"
+        translation = "[0, 250]" />
+
+    <Rectangle 
+        id = "exampleRectangle2"
+        color = "0x4682B4"
+        width = "2"
+        height = "220"
+        translation = "[550, 15]" />
+
+    <Poster 
+        id = "myPoster" 
+        uri = "pkg:/images/Justin1.png"
+        width = "220"
+        height = "220"
+        translation = "[0, 15]" >
+
+        <Label
+            id = "First Name"
+            width = "300"
+            text = "JUSTIN ANDERSON"
+            wrap = "true"
+            color = "0x000000"
+            font = "font:MediumBoldSystemFont"
+            translation = "[ 250, 15 ]" />
+
+        <Label
+            id = "Title"
+            width = "350"
+            text = "Creator / Editor / Developer"
+            wrap = "true"
+            color = "0x000000"
+            font = "font:SmallestSystemFont"
+            translation = "[ 250, 45 ]" />
+
+        <Label
+            id = "Overview"
+            width = "675"
+            text = "With a long-standing professional background of working in corporate environments, I am able to develop products and create solutions that meet a client’s requests. While I am actively pursuing a career as a developer, my background in professional content production gives me a creative edge in how I am able to contribute and produce deliverables.        I am determined to expand and progress my skills as a programmer and would love the chance to work for a company that challenges me."
+            wrap = "true"
+            color = "0x000000"
+            font = "font:SmallestSystemFont"
+            translation = "[ 580, 15 ]" />
+    </Poster>
+
+
+</children>
+
+</component>
